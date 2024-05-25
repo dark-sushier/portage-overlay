@@ -9,3 +9,6 @@ eselect repository add dark-sushier git https://github.com/dark-sushier/portage-
 emerge --sync dark-sushier
 ```
 
+## see also
+
+- https://seppuku.club/unix-like/gentoo-overlay-enter/
