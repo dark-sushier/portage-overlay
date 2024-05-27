@@ -12,3 +12,4 @@ emerge --sync dark-sushier
 ## see also
 
 - https://seppuku.club/unix-like/gentoo-overlay-enter/
+- https://wiki.gentoo.org/wiki/Basic_guide_to_write_Gentoo_Ebuilds/ja
