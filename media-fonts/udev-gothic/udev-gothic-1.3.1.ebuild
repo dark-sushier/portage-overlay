@@ -72,7 +72,7 @@ SLOT="0"
 # exists for.  If the package was for an x86 binary package, then
 # KEYWORDS would be set like this: KEYWORDS="-* x86"
 # Do not use KEYWORDS="*"; this is not valid in an ebuild context.
-KEYWORDS=""
+KEYWORDS="amd64"
 
 # Comprehensive list of any and all USE flags leveraged in the ebuild,
 # with some exceptions, e.g., ARCH specific flags like "amd64" or "ppc".
