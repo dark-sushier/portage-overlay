@@ -9,4 +9,7 @@
     <email>ohkouchi@fsm.ne.jp</email>
     <name>Dark Sushier</name>
   </maintainer>
+  <upstream>
+    <remote-id type="github">symfony-cli/symfony-cli</remote-id>
+  </upstream>
 </pkgmetadata>
