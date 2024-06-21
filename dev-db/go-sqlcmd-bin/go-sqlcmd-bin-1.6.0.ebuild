@@ -22,7 +22,7 @@ EAPI=8
 # Take a look at the eclass/ directory for more examples.
 
 # Short one-line description of this package.
-DESCRIPTION="The new sqlcmd, CLI for SQL Server and Azure SQL (winget install sqlcmd / sqlcmd create mssql / sqlcmd open ads)"
+DESCRIPTION="The new sqlcmd, CLI for SQL Server and Azure SQL"
 
 # Homepage, not used by Portage directly but handy for developer reference
 HOMEPAGE="https://github.com/microsoft/go-sqlcmd"

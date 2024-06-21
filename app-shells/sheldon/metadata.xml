@@ -16,4 +16,7 @@
     <email>nanasess@fsm.ne.jp</email>
     <description>Kentaro Ohkouchi</description>
   </maintainer>
+  <upstream>
+    <remote-id type="github">rossmacarthur/sheldon</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -16,4 +16,7 @@
     <email>nanasess@fsm.ne.jp</email>
     <description>Primary maintainer</description>
   </maintainer>
+  <upstream>
+    <remote-id type="github">microsoft/go-sqlcmd</remote-id>
+  </upstream>
 </pkgmetadata>

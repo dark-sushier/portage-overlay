@@ -29,7 +29,7 @@ HOMEPAGE="https://github.com/symfony-cli/symfony-cli"
 
 # Point to any required sources; these will be automatically downloaded by
 # Portage.
-SRC_URI="https://github.com/symfony-cli/symfony-cli/releases/download/v5.8.19/symfony-cli_linux_amd64.tar.gz"
+SRC_URI="https://github.com/symfony-cli/symfony-cli/releases/download/v${PV}/symfony-cli_linux_amd64.tar.gz"
 
 # Source directory; the dir where the sources can be found (automatically
 # unpacked) inside ${WORKDIR}.  The default value for S is ${WORKDIR}/${P}
@@ -40,7 +40,7 @@ S="${WORKDIR}"
 # License of the package.  This must match the name of file(s) in the
 # licenses/ directory.  For complex license combination see the developer
 # docs on gentoo.org for details.
-LICENSE="AGPL-3.0"
+LICENSE="AGPL-3"
 
 # The SLOT variable is used to tell Portage if it's OK to keep multiple
 # versions of the same package installed at the same time.  For example,
@@ -90,17 +90,17 @@ IUSE=""
 # had installed on your system when you tested the package.  Then
 # other users hopefully won't be caught without the right version of
 # a dependency.
-RDEPEND=""
+# RDEPEND=""
 
 # Build-time dependencies that need to be binary compatible with the system
 # being built (CHOST). These include libraries that we link against.
 # The below is valid if the same run-time depends are required to compile.
-DEPEND="${RDEPEND}"
+# DEPEND="${RDEPEND}"
 
 # Build-time dependencies that are executed during the emerge process, and
 # only need to be present in the native build system (CBUILD). Example:
 #BDEPEND="virtual/pkgconfig"
-BDEPEND=""
+# BDEPEND=""
 
 # The following src_configure function is implemented as default by portage, so
 # you only need to call it if you need a different behaviour.
