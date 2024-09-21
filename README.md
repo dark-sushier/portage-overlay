@@ -23,7 +23,7 @@ cp /var/db/repos/gentoo/skel.ebuild ${PN}-${PV}.ebuild
 cp /var/db/repos/gentoo/skel.metadata.xml metadata.xml
 
 pkgcheck scan
-sudo GENTOO_MIRRORS="" ebuild ./${PN}-${PV}.ebuild
+sudo GENTOO_MIRRORS="" ebuild ./${PN}-${PV}.ebuild clean unpack
 sudo ebuild ./${PN}-${PV}.ebuild clean test install
 sudo ebuild ./${PN}-${PV}.ebuild clean install merge
 ```
